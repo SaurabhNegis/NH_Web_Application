@@ -1,0 +1,60 @@
+Sidebar.css
+
+
+.sidebar {
+  background-color: #444;
+  display: flex;
+  color: #fff;
+  padding: 20px;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-top: 70px;
+
+
+
+}
+
+.sidebar li {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #444;
+  padding-left: 10px;
+}
+
+.sidebar li a {
+  color: #050303;
+  text-decoration: none;
+}
+
+.sidebar li a:hover {
+  color: #ccc;
+}
+
+
+.sidebar-logo{
+  cursor: pointer;
+  position: relative;
+    width: 70px;
+    z-index: 2;
+    margin-left: 50px;
+    bottom: 10px;
+}
+
+
+/* .navbar2{
+  top: 50px;
+   background-color: #050303;
+    
+}   */
