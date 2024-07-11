@@ -11,20 +11,14 @@ import  OutsideClickHandler  from "react-outside-click-handler";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const sidebarRef = useRef(null); // Create a reference to the sidebar container
 
-  const handleToggle = () => {
-    setToggle(!toggle);
-  };
+  
 
   const handleOutsideClick = () => {
     if (toggle) {
       setToggle(false);
     }
   };
-
-
-
 
 
   return (
@@ -85,9 +79,7 @@ const Navbar = () => {
        {/* sidebar container */}
        {toggle && (
           <OutsideClickHandler
-            onOutsideClick={handleOutsideClick}
-            ref={sidebarRef} // Pass the reference to the OutsideClickHandler
-          >
+            onOutsideClick={handleOutsideClick}>
             <motion.div
               className="sidebar-container"
               initial={{ x: -250, opacity: 0 }}

@@ -6,7 +6,6 @@ const Home = () => {
     <div>
         <h1>Home</h1>
 
-        <animation2 />
 
          </div>
   )
