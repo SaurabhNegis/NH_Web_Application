@@ -16,7 +16,7 @@ img{
     width: 100%;
     z-index: 1000; /* make sure it's on top of other elements */
     background-color: #fff; /* or any other background color you prefer */
-    padding: 10px; /* add some padding to make it look better */
+    /* padding: 10px; add some padding to make it look better */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* add a subtle shadow */
     
   } 
@@ -146,6 +146,10 @@ img{
   display: block;
 }
 
+.contact-info2{
+  display: none;
+  text-align: center;
+}
 
 
 
@@ -157,7 +161,7 @@ img{
         display: none;
     }
 
-    .navbar .logo{
+    .logo{
         width: 70px;
     }
 
@@ -230,6 +234,9 @@ img{
         display: flex;
         align-items: center;
         
+    }
+    .contact-info2{
+      display: block;
     }
    
   }

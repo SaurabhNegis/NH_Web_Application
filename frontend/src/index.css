@@ -20,7 +20,10 @@ a{
 .app{
   width: 98%;
   margin: auto;
-  margin-top: 60px; /* adjust the value to match the height of your navbar */
+  margin-top: 60px;
+   /* adjust the value to match the height of your navbar */
+}
 
-  
+.logo{
+  width: 70px;
 }
